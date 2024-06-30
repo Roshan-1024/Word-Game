@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: linear-gradient(to right, #7474BF, #348AC7);
+  font-family: sans-serif;
+}
+
+button#nextQuestion{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: orange;
+  width: 150px;
+  height: 70px;
+  float: right;
+  border: 2px solid red;
+  border-radius: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+div#questionContainer{
+  border: 1px solid white;
+  height: 500px;
+  width: 70%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#questionContainer > input{
+  width: 50px;
+  height: 50px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: 150px;
+  border: none;
+  outline: none;
+  background: white;
+  color: black;
+}
+
+img#checkAnswer{
+  position: absolute;
+  width: 100px;
+  height: 120px;
+  left: 730px;
+  top: 450px;
+  cursor: pointer;
+}
+
+img#GIF{
+  position: absolute;
+  left: 15px;
+  top: 35%;
+  display: none;
+}
+
+img#cartoon{
+  display: none;
+  width: 150px;
+  height: 170px;
+  position: absolute;
+  right: 45px;
+  top: 40%;
+}

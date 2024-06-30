@@ -1,0 +1,24 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Anwesha's Word Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <button id="nextQuestion" onclick="createQuestion()" title="move to next question">Next</button>
+    <div id = "questionContainer">
+      <img id="checkAnswer" src="Images/hand.png" alt="Check" draggable="false" onclick="checkCorrectness()" title="Check your answer">
+    </div>
+
+  <audio id="appalauseSoundEffect">
+    <source src="Music/appalause.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="laughingSoundEffect">
+    <source src="Music/laugh.mp3" type="audio/mpeg">
+  </audio>
+
+  <img id="GIF" src="Images/a.gif" width="200" height="200" draggable="false">
+  <img id="cartoon" src="Images/2.png" alt="cartoon" draggable="false">
+    <script src="settings.js" charset="utf-8"></script>
+  </body>
+</html>
